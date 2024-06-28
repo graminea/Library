@@ -1,0 +1,23 @@
+[
+    {
+        "username": "gab",
+        "password": "123",
+        "is_admin": "admin",
+        "borrowed_books": [
+            "1234567890",
+            "13246874641"
+        ]
+    },
+    {
+        "username": "test",
+        "password": "123",
+        "is_admin": "regular",
+        "borrowed_books": []
+    },
+    {
+        "username": "test2",
+        "password": "123456",
+        "is_admin": "regular",
+        "borrowed_books": []
+    }
+]

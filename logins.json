@@ -3,7 +3,9 @@
         "username": "gab",
         "password": "123",
         "is_admin": "admin",
-        "borrowed_books": []
+        "borrowed_books": [
+            "6845412"
+        ]
     },
     {
         "username": "test",
@@ -22,5 +24,13 @@
         "password": "Analinda123",
         "is_admin": "regular",
         "borrowed_books": []
+    },
+    {
+        "username": "renata",
+        "password": "251295",
+        "is_admin": "regular",
+        "borrowed_books": [
+            "1234567"
+        ]
     }
 ]

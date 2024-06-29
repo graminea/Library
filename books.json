@@ -21,19 +21,19 @@
         "title": "Min de Papai",
         "author": "AUUUUUUUUUUU",
         "ISBN": "6845412",
-        "status": "disponivel",
-        "borrow_date": null,
-        "due_date": null,
-        "borrower": null
+        "status": "emprestado",
+        "borrow_date": "2024-06-29T13:43:32.011077",
+        "due_date": "2024-07-13T13:43:32.011077",
+        "borrower": "gab"
     },
     {
         "title": "Pequeno Principe",
         "author": "N\u00c3\u00a3o Sei",
         "ISBN": "1234567",
-        "status": "disponivel",
-        "borrow_date": null,
-        "due_date": null,
-        "borrower": null
+        "status": "emprestado",
+        "borrow_date": "2024-06-29T13:44:46.436471",
+        "due_date": "2024-07-13T13:44:46.436471",
+        "borrower": "renata"
     },
     {
         "title": "To Kill a Mockingbird",

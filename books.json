@@ -1,1 +1,1145 @@
-[{"title": "The Great Gatsby", "author": "F. Scott Fitzgerald", "ISBN": "1234567890", "status": "borrowed"}, {"title": "pedro morreu", "author": "joao carlos", "ISBN": "13246874641", "status": "borrowed"}, {"title": "min de papai", "author": "AUUUUUUUUUUU", "ISBN": "6845412", "status": "available"}, {"title": "Pequeno Principe", "author": "n\u00e3o sei", "ISBN": "1234567", "status": "borrowed"}]
+[
+    {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "ISBN": "1234567890",
+        "status": "emprestado",
+        "borrow_date": "2024-06-29T13:24:37.530643",
+        "due_date": "2024-07-13T13:24:37.530643",
+        "borrower": "gab"
+    },
+    {
+        "title": "Pedro Morreu",
+        "author": "Joao Carlos",
+        "ISBN": "13246874641",
+        "status": "emprestado",
+        "borrow_date": "2024-06-29T11:49:43.875304",
+        "due_date": "2024-07-13T11:49:43.875304",
+        "borrower": "gab"
+    },
+    {
+        "title": "Min de Papai",
+        "author": "AUUUUUUUUUUU",
+        "ISBN": "6845412",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "Pequeno Principe",
+        "author": "N\u00c3\u00a3o Sei",
+        "ISBN": "1234567",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "ISBN": "9780061120084",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "1984",
+        "author": "George Orwell",
+        "ISBN": "9780451524935",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "ISBN": "9781503290563",
+        "status": "dispon\u00edvel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "ISBN": "9780316769488",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "ISBN": "9780547928227",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "ISBN": "9780544003415",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "ISBN": "9780590353427",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "The Da Vinci Code",
+        "author": "Dan Brown",
+        "ISBN": "9780307474278",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "ISBN": "9780062315007",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "ISBN": "9780316769488",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "Moby Dick",
+        "author": "Herman Melville",
+        "ISBN": "9781503280786",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "War and Peace",
+        "author": "Leo Tolstoy",
+        "ISBN": "9781400079988",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "The Odyssey",
+        "author": "Homer",
+        "ISBN": "9780140268867",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky",
+        "ISBN": "9780140449136",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "The Divine Comedy",
+        "author": "Dante Alighieri",
+        "ISBN": "9780142437223",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "The Iliad",
+        "author": "Homer",
+        "ISBN": "9780140275360",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 1",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250901",
+        "status": "dispon\u00edvel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 2",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250902",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 3",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250903",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 4",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250904",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 5",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250905",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 6",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250906",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 7",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250907",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 8",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250908",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 9",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250909",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 10",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250910",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 11",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250911",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 12",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250912",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 13",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250913",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 14",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250914",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 15",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250915",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 16",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250916",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 17",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250917",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 18",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250918",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 19",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250919",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 20",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250920",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 21",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250921",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 22",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250922",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 23",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250923",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 24",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250924",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 25",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250925",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 26",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250926",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 27",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250927",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 28",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250928",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 29",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250929",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 30",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250930",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 31",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250931",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 32",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250932",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 33",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250933",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 34",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250934",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 35",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250935",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 36",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250936",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 37",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250937",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 38",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250938",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 39",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250939",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 40",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250940",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 41",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250941",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 42",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250942",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 43",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250943",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 44",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250944",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 45",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250945",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 46",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250946",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 47",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250947",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 48",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250948",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 49",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250949",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 50",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250950",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 51",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250951",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 52",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250952",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 53",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250953",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 54",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250954",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 55",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250955",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 56",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250956",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 57",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250957",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 58",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250958",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 59",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250959",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 60",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250960",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 61",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250961",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 62",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250962",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 63",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250963",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 64",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250964",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 65",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250965",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 66",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250966",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 67",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250967",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 68",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250968",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 69",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250969",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 70",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250970",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 71",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250971",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 72",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250972",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 73",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250973",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 74",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250974",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 75",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250975",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 76",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250976",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 77",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250977",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 78",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250978",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 79",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250979",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 80",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250980",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 81",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250981",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 82",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250982",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 83",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250983",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 84",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250984",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 85",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250985",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 86",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250986",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 87",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250987",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 88",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250988",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 89",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250989",
+        "status": "emprestado",
+        "borrow_date": "2024-06-29T12:21:25.574341",
+        "due_date": "2024-07-13T12:21:25.574341",
+        "borrower": "gab"
+    },
+    {
+        "title": "One Piece 90",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250990",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 91",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250991",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 92",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250992",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 93",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250993",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 94",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250994",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 95",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250995",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 96",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250996",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 97",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250997",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 98",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250998",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 99",
+        "author": "Eiichiro Oda",
+        "ISBN": "97840887250999",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 100",
+        "author": "Eiichiro Oda",
+        "ISBN": "978408872509100",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 101",
+        "author": "Eiichiro Oda",
+        "ISBN": "978408872509101",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 102",
+        "author": "Eiichiro Oda",
+        "ISBN": "978408872509102",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 103",
+        "author": "Eiichiro Oda",
+        "ISBN": "978408872509103",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 104",
+        "author": "Eiichiro Oda",
+        "ISBN": "978408872509104",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 105",
+        "author": "Eiichiro Oda",
+        "ISBN": "978408872509105",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 106",
+        "author": "Eiichiro Oda",
+        "ISBN": "978408872509106",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    },
+    {
+        "title": "One Piece 107",
+        "author": "Eiichiro Oda",
+        "ISBN": "978408872509107",
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
+    }
+]

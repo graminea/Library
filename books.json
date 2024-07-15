@@ -30,10 +30,10 @@
         "title": "Pequeno Principe",
         "author": "N\u00c3\u00a3o Sei",
         "ISBN": "1234567",
-        "status": "emprestado",
-        "borrow_date": "2024-06-29T13:44:46.436471",
-        "due_date": "2024-07-13T13:44:46.436471",
-        "borrower": "renata"
+        "status": "disponivel",
+        "borrow_date": null,
+        "due_date": null,
+        "borrower": null
     },
     {
         "title": "To Kill a Mockingbird",
@@ -75,10 +75,10 @@
         "title": "The Hobbit",
         "author": "J.R.R. Tolkien",
         "ISBN": "9780547928227",
-        "status": "disponivel",
-        "borrow_date": null,
-        "due_date": null,
-        "borrower": null
+        "status": "emprestado",
+        "borrow_date": "2024-06-30T21:36:09.357308",
+        "due_date": "2024-07-14T21:36:09.357308",
+        "borrower": "gian"
     },
     {
         "title": "The Lord of the Rings",

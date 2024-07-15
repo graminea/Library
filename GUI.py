@@ -156,34 +156,40 @@ class LibraryApp(tk.Tk):
         self.canvas.configure(scrollregion=self.canvas.bbox("all"))
 
     def find_books_menu2(self):
-        self.clear_widgets()
+            self.clear_widgets()
 
-        self.geometry("600x430")
-        self.label_title = tk.Label(self, text="Título (Opcional)")
-        self.label_title.pack()
-        self.entry_title = tk.Entry(self)
-        self.entry_title.pack()
+            self.geometry("600x400")
+            self.label_title = tk.Label(self, text="Título (Opcional)")
+            self.label_title.pack()
+            self.entry_title = tk.Entry(self)
+            self.entry_title.pack()
 
-        self.label_author = tk.Label(self, text="Autor (Opcional)")
-        self.label_author.pack()
-        self.entry_author = tk.Entry(self)
-        self.entry_author.pack()
+            self.label_author = tk.Label(self, text="Autor (Opcional)")
+            self.label_author.pack()
+            self.entry_author = tk.Entry(self)
+            self.entry_author.pack()
 
-        self.button_submit = tk.Button(self, text="Procurar Livro", command=self.find_books)
-        self.button_submit.pack(pady=5)
+            self.button_submit = tk.Button(self, text="Procurar Livro", command=self.find_books)
+            self.button_submit.pack(pady=5)
 
-        self.label_copy_ISBN = tk.Label(self, text="Copie o código ISBN do livro desejado")
-        self.label_copy_ISBN.pack()
+            self.label_copy_ISBN = tk.Label(self, text="Copie o código ISBN do livro desejado")
+            self.label_copy_ISBN.pack()
 
-        self.text_results = Text(self, wrap='word', width=80, height=15)
-        self.text_results.pack(expand=True, fill='both')
+            self.canvas = tk.Canvas(self)
+            self.canvas.pack(side='left', fill='both', expand=True)
 
-        self.scrollbar = Scrollbar(self, command=self.text_results.yview)
-        self.scrollbar.pack(side='right', fill='y')
-        self.text_results.config(yscrollcommand=self.scrollbar.set)
+            self.scrollbar = tk.Scrollbar(self, command=self.canvas.yview)
+            self.scrollbar.pack(side='right', fill='y')
 
-        self.button_back = tk.Button(self, text="Voltar", command=self.borrow_book_menu)
-        self.button_back.pack(pady=5)
+            self.canvas.configure(yscrollcommand=self.scrollbar.set)
+
+            self.results_frame = tk.Frame(self.canvas)
+            self.canvas.create_window((0, 0), window=self.results_frame, anchor='nw')
+
+            self.results_frame.bind("<Configure>", self.on_frame_configure)
+
+            self.button_back = tk.Button(self, text="Voltar", command=self.borrow_book_menu)
+            self.button_back.pack(pady=5)
 
     def borrow_book_menu(self):
         self.clear_widgets()
@@ -205,6 +211,9 @@ class LibraryApp(tk.Tk):
     def return_book_menu(self):
         self.clear_widgets()
 
+        self.button_get_ISBN = tk.Button(self, text="Meus Livros", command=self.my_books_menu2)
+        self.button_get_ISBN.pack()
+
         self.label_ISBN = tk.Label(self, text="ISBN")
         self.label_ISBN.pack()
         self.entry_ISBN = tk.Entry(self)
@@ -212,34 +221,6 @@ class LibraryApp(tk.Tk):
 
         self.button_submit = tk.Button(self, text="Devolver Livro", command=self.return_book)
         self.button_submit.pack(pady=5)
-
-        self.button_back = tk.Button(self, text="Menu Principal", command=self.main_menu)
-        self.button_back.pack(pady=5)
-
-    def my_books_menu2(self):
-        self.clear_widgets()
-
-        self.geometry("600x400")
-
-        borrowed_books = self.library.get_borrowed_books_by_user(self.user)
-
-        self.label_main = tk.Label(self, text="Meus Livros")
-        self.label_main.pack(pady=10)
-
-        self.book_list = Text(self, wrap='word', width=80, height=15)
-        self.book_list.pack(expand=True, fill='both')
-
-        self.scrollbar = Scrollbar(self, command=self.book_list.yview)
-        self.scrollbar.pack(side='right', fill='y')
-        self.book_list.config(yscrollcommand=self.scrollbar.set)
-
-        for book in borrowed_books:
-            due_date = book.due_date
-            if due_date:
-                due_date_str = due_date.strftime("%d-%m-%Y")
-            else:
-                due_date_str = "Não especificado"
-            self.book_list.insert(tk.END, f"{book.title} de {book.author} (ISBN: {book.ISBN}) - Data de Retorno: {due_date_str}\n")
 
         self.button_back = tk.Button(self, text="Menu Principal", command=self.main_menu)
         self.button_back.pack(pady=5)
@@ -277,6 +258,41 @@ class LibraryApp(tk.Tk):
         self.button_back = tk.Button(self, text="Menu Principal", command=self.main_menu)
         self.button_back.pack(pady=5)
 
+    def my_books_menu2(self):
+        self.clear_widgets()
+
+        self.geometry("600x400")
+
+        borrowed_books = self.library.get_borrowed_books_by_user(self.user)
+
+        self.label_main = tk.Label(self, text="Meus Livros")
+        self.label_main.pack(pady=10)
+
+        self.frame_books = tk.Frame(self)
+        self.frame_books.pack(pady=10)
+
+        for book in borrowed_books:
+            due_date = book.due_date
+            if due_date:
+                due_date_str = due_date.strftime("%d-%m-%Y %H:%M")
+            else:
+                due_date_str = "Não especificado"
+            
+            book_frame = tk.Frame(self.frame_books)
+            book_frame.pack(fill='x', pady=5)
+
+            book_info = f"{book.title} de {book.author} (ISBN: {book.ISBN}) - Data de Retorno: {due_date_str}"
+            label = tk.Label(book_frame, text=book_info, anchor='w', justify='left')
+            label.pack(side='left', padx=10)
+
+            copy_button = tk.Button(book_frame, text="Copiar ISBN", command=lambda ISBN=book.ISBN: self.copy_to_clipboard(ISBN))
+            copy_button.pack(side='right')
+        
+        self.label_copy_ISBN_2 = tk.Label(self, text="Copie o código ISBN do livro desejado")
+        self.label_copy_ISBN_2.pack()
+
+        self.button_back = tk.Button(self, text="Voltar", command=self.return_book_menu)
+        self.button_back.pack(pady=5)
 
     def clear_widgets(self):
         for widget in self.winfo_children():

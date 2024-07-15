@@ -3,34 +3,54 @@
         "username": "gab",
         "password": "123",
         "is_admin": "admin",
-        "borrowed_books": [
-            "6845412"
-        ]
+        "borrowed_books": []
     },
     {
         "username": "test",
         "password": "123",
-        "is_admin": "regular",
+        "is_admin": "normal",
         "borrowed_books": []
     },
     {
         "username": "test2",
         "password": "123456",
-        "is_admin": "regular",
+        "is_admin": "normal",
         "borrowed_books": []
     },
     {
-        "username": "Ana",
-        "password": "Analinda123",
-        "is_admin": "regular",
+        "username": "ana",
+        "password": "analinda123",
+        "is_admin": "normal",
         "borrowed_books": []
     },
     {
         "username": "renata",
         "password": "251295",
-        "is_admin": "regular",
-        "borrowed_books": [
-            "1234567"
-        ]
+        "is_admin": "normal",
+        "borrowed_books": []
+    },
+    {
+        "username": "gian",
+        "password": "123",
+        "is_admin": "normal",
+        "borrowed_books": []
+    },
+    {
+        "username": "teste2",
+        "password": "123",
+        "is_admin": "normal",
+        "borrowed_books": []
+    },
+    {
+        "username": "teste3",
+        "password": "123",
+        "is_admin": "normal",
+        "borrowed_books": []
+    },
+    {
+        "username": "teste34",
+        "password": "123",
+        "is_admin": "normal",
+        "borrowed_books": []
     }
 ]

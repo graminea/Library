@@ -17,7 +17,7 @@ class Login:
                     if data['is_admin'] == 'admin':
                         user = Admin(data['username'], data['password'])
                     else:
-                        user = User(data['username'], data['password'], is_admin='regular')
+                        user = User(data['username'], data['password'], is_admin='normal')
                     self.users.append(user)
         except FileNotFoundError:
             print("Arquivo de logins não encontrado. Criando um novo.")
@@ -28,11 +28,11 @@ class Login:
                 return user
         return None
 
-    def register(self, username, password, is_admin='regular'):
+    def register(self, username, password, is_admin='normal'):
         if is_admin == 'admin':
             user = Admin(username, password)
         else:
-            user = User(username, password, is_admin='regular')
+            user = User(username, password, is_admin='normal')
         self.users.append(user)
         self.save_users()
 
@@ -40,7 +40,7 @@ class Login:
         folder_path = os.path.dirname(os.path.abspath(__file__))
         file_path = os.path.join(folder_path, 'logins.json')
         with open(file_path, 'w') as file:
-            json.dump([user.__dict__ for user in self.users], file)
+            json.dump([user.__dict__ for user in self.users], file, indent= 4)
 
     def remove_user(self, username):
         self.users = [user for user in self.users if user.username != username]

@@ -4,3 +4,8 @@
 29-06-2024 13:35 - renata - Devolveu The Da Vinci Code (ISBN: 9780307474278)
 29-06-2024 13:43 - gab - Emprestou Min de Papai (ISBN: 6845412)
 29-06-2024 13:44 - renata - Emprestou Pequeno Principe (ISBN: 1234567)
+
+30-06-2024 21:29 - renata - Emprestou The Lord of the Rings (ISBN: 9780544003415)
+30-06-2024 21:30 - renata - Devolveu Pequeno Principe (ISBN: 1234567)
+30-06-2024 21:30 - renata - Devolveu The Lord of the Rings (ISBN: 9780544003415)
+30-06-2024 21:36 - gian - Emprestou The Hobbit (ISBN: 9780547928227)
